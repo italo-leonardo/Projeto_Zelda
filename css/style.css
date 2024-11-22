@@ -1,16 +1,12 @@
-/* style.css */
-
-/* Variáveis principais */
 :root {
-    --bg-color: #1e2d24; /* Verde escuro (inspirado na floresta) */
-    --accent-color: #f4d35e; /* Amarelo (TriForce) */
-    --text-color: #fff; /* Branco para contraste */
-    --secondary-color: #4c956c; /* Verde oliva */
-    --link-hover-color: #d83f3f; /* Vermelho (coração ou perigo) */
-    --font-family: 'Cinzel', serif; /* Estilo medieval */
+    --bg-color: #1e2d24;
+    --accent-color: #f4d35e;
+    --text-color: #fff;
+    --secondary-color: #4c956c;
+    --link-hover-color: #d83f3f;
+    --font-family: 'Cinzel', serif;
 }
 
-/* Corpo geral */
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
@@ -19,7 +15,7 @@ body {
     margin: 0;
 }
 
-/* Seções gerais */
+
 .section {
     padding: 4rem 2rem;
     text-align: center;
@@ -34,7 +30,6 @@ body {
     position: relative;
 }
 
-/* Decoração de títulos */
 .section__title::after {
     content: '▲';
     font-size: 1.5rem;
@@ -45,11 +40,11 @@ body {
     top: 3.5rem;
 }
 
-/* Header */
 .header {
     background: linear-gradient(to bottom, var(--secondary-color), var(--bg-color));
     padding: 1rem 2rem;
     text-align: center;
+    background: url(https://styles.redditmedia.com/t5_wj19x/styles/communityIcon_4mauvokasis31.png) center  left no-repeat; 
 }
 
 .header__title {
@@ -86,7 +81,7 @@ body {
     color: var(--link-hover-color);
 }
 
-/* Botões */
+
 .intro__button, .btn-more, .form__button {
     display: inline-block;
     padding: 0.8rem 1.5rem;
@@ -106,7 +101,6 @@ body {
     background-color: var(--accent-color);
 }
 
-/* Galeria */
 .gallery__grid {
     display: flex;
     flex-wrap: wrap;
@@ -134,7 +128,6 @@ body {
     padding: 0.5rem 0;
 }
 
-/* Formulário */
 .contact__form {
     max-width: 600px;
     margin: 0 auto;
@@ -165,7 +158,6 @@ body {
     color: var(--text-color);
 }
 
-/* Footer */
 .footer {
     background: var(--secondary-color);
     text-align: center;
